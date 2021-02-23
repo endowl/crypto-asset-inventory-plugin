@@ -1,0 +1,94 @@
+{
+  "grantor": {
+    "full_name": "George of Jungle"
+  },
+  "cryptoassets": {
+    "wallets": [
+      {
+        "name": "Metamask",
+        "asset_types": [
+          "Ether",
+          "Ethereum tokens"
+        ],
+        "type": "browser plugin on Chrome",
+        "device_id": "D1"
+      },
+      {
+        "name": "Trust Wallet",
+        "asset_types": [
+          "Ether",
+          "Bitcoin"
+        ],
+        "type": "iPhone App",
+        "device_id": "D2"
+      }
+    ],
+    "trusted_helpers": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "other_instructions": "- Hodl\n- BTFD\n- Lambo soon"
+  },
+  "devices": {
+    "D1": {
+      "id": "D1",
+      "name": "laptop",
+      "type": "Macbook Pro (2019)",
+      "host_name": "Trash-Panda-Base",
+      "location": "usually in my office or in my laptop bag when I am traveling",
+      "login": {
+        "username": "ken",
+        "password": "password1!"
+      }
+    },
+    "D2": {
+      "id": "D2",
+      "name": "iphone",
+      "type": "Apple iPhone 12",
+      "host_name": "Mobile-Trash-Panda",
+      "location": "usually in my pocket or within my reach",
+      "pin": 987654
+    }
+  },
+  "documents": [
+    {
+      "id": "1234abcd",
+      "template-name": "crypto-letter-of-instruction",
+      "status": "signed",
+      "date-signed": "2021-02-21"
+    }
+  ],
+  "contacts": {
+    "C1": {
+      "id": "C1",
+      "first_name": "Tookie",
+      "full_name": "Tookie of Jungle",
+      "email": "tookie@bongonet.org",
+      "phone": "+999 3482",
+      "address": "Tree over there, In jungle"
+    },
+    "C2": {
+      "id": "C2",
+      "first_name": "Ursula",
+      "full_name": "Ursula Stanhope",
+      "email": "ustanhope1985@yahoo.com",
+      "phone": "+1 888 555-1212",
+      "address": "George's treehouse, In jungle"
+    },
+    "C3": {
+      "id": "C3",
+      "first_name": "Ape",
+      "full_name": "Ape of Jungle",
+      "email": "ape@bongonet.org",
+      "phone": "+999 7219",
+      "address": "By river, In jungle"
+    }
+  },
+  "this": {
+    "id": "1234abcd",
+    "template-name": "crypto-letter-of-instruction",
+    "status": "signed",
+    "date-signed": "2021-02-21"
+  }
+}
