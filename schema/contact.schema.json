@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://endowl.com/schemas/contact.schema.json",
+  "title": "Estate Plan Contact",
+  "description": "Endowl Estate Plan Contact",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Globally unique contact identifier",
+      "type": "string",
+      "contentEncoding": "base64"
+    },
+    "first-name": {
+      "type": "string"
+    },
+    "full-name": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "https://endowl.com/schemas/address.schema.json"
+    },
+    "emails": [
+
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$id": "https://endowl.com/schemas/email.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "An email address with a descriptor tagaddress similar to http://microformats.org/wiki/h-card",
+  "type": "object",
+  "properties": {
+    "post-office-box": {
+      "type": "string"
+    },
