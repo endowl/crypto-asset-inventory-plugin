@@ -1,8 +1,10 @@
+// TODO Convert this to js template
+
 # Crypto Asset Inventory for {{ grantor.full_name }}<br>
 
 {% if this.status == 'in-progress' %}
 # This document is a WORK IN PROGRESS<br>
-{% elsif this.state == 'revoked' %}
+{% elsif this.status == 'revoked' %}
 # This document has been REVOKED<br>
 {% endif %}
 

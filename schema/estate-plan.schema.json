@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://endowl.com/schemas/estate-plan.schema.json",
+  "title": "Estate Plan",
+  "description": "Endowl Estate Plan",
+  "type": "object",
+  "properties": {
+    "grantor": {
+      "description": "The creator of the estate plan",
+      "type": "object"
+    },
+    "cryptoassets": {
+      "description": "Information about cryptoassets owned by the grantor",
+      "type": "object"
+    },
+    "contacts": {
+      "description": "People referenced by the estate plan",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "description":"Person referenced by the estate plan",
+        "$ref": "https://endowl.com/schemas/contact.schema.json"
+      }
+    }
+  },
+  "required": [ "productId", "productName", "price" ]
+}
