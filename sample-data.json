@@ -17,7 +17,8 @@
         "name": "Trust Wallet",
         "asset_types": [
           "Ether",
-          "Bitcoin"
+          "Bitcoin",
+          "Dogecoin"
         ],
         "type": "iPhone App",
         "device_id": "D2"

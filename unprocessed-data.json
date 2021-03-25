@@ -5,6 +5,20 @@
   "cryptoassets": {
     "wallets": [
       {
+        "name": "Empty Wallet",
+        "type": "Desktop application",
+        "device_id": "D1",
+        "asset_types": []
+      },
+      {
+        "name": "One coin wallet",
+        "asset_types": [
+          "Singletary"
+        ],
+        "type": "Desktop application",
+        "device_id": "D1"
+      },
+      {
         "name": "Metamask",
         "asset_types": [
           "Ether",
@@ -17,9 +31,10 @@
         "name": "Trust Wallet",
         "asset_types": [
           "Ether",
-          "Bitcoin"
+          "Bitcoin",
+          "Dogecoin"
         ],
-        "type": "iPhone App",
+        "type": "iPhone Application",
         "device_id": "D2"
       }
     ],
@@ -46,7 +61,6 @@
       "id": "D2",
       "name": "iphone",
       "type": "Apple iPhone 12",
-      "host_name": "Mobile-Trash-Panda",
       "location": "usually in my pocket or within my reach",
       "pin": 987654
     }
