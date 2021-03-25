@@ -7,9 +7,6 @@ import flattenDeep from 'lodash/flattenDeep.js'
 import zip from 'lodash/zip.js'
 
 export default (strings, ...keys) => templates => values => {
-    const boilerplate = [...strings]
-    boilerplate[0] = boilerplate[0].trimStart()
-    boilerplate[boilerplate.length - 1] = boilerplate[boilerplate.length - 1].trimEnd()
     const dict = values ?? {}
     const subTemps = templates ?? {}
     const result = keys.map((key, i) => {
@@ -31,6 +28,6 @@ export default (strings, ...keys) => templates => values => {
             return ''
         }
     })
-    return flattenDeep(zip(boilerplate, result)).join('')
+    return flattenDeep(zip(strings, result)).join('').trimStart().trimEnd()
 }
 

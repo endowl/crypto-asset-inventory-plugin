@@ -1,6 +1,6 @@
 import Templatize from '../src/Templatize.js'
 import Wallet from './Wallet.template.js'
-import DocumentDate from './DocumentDate.template.js'
+import DocumentDate from './DocumentHeader.template.js'
 import {each} from '../src/templateHelpers.js'
 
 export default Templatize`
