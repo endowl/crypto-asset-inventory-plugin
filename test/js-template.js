@@ -1,6 +1,6 @@
 import CryptoAssetInventoryForm from '../templates/CryptoAssetInventory.template.js'
-import data from '../unprocessed-data.json'
-import {set} from "./root.js";
+import data from './test-data.json'
+import {set} from "../src/root.js";
 
 set(data)
 
