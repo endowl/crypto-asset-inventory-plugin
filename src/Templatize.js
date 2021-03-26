@@ -10,7 +10,8 @@ export default (strings, ...keys) => templates => values => {
     const dict = values ?? {}
     const subTemps = templates ?? {}
     const result = keys.map((key, i) => {
-        const v = get(dict, key)
+        const v = key === '*' ? dict : get(dict, key)
+
         if (v) {
             if (subTemps[key]) {
                 if (isFunction(subTemps[key])) {
