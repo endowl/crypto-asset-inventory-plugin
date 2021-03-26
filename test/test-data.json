@@ -62,7 +62,7 @@
       "name": "iphone",
       "type": "Apple iPhone 12",
       "location": "usually in my pocket or within my reach",
-      "pin": 987654
+      "pin": "987654"
     }
   ],
   "documents": [

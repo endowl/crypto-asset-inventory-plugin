@@ -11,23 +11,25 @@ export default (strings, ...keys) => templates => values => {
     const subTemps = templates ?? {}
     const result = keys.map((key, i) => {
         const v = get(dict, key)
-        if (subTemps[key]) {
-            if (isFunction(subTemps[key])) {
-                return subTemps[key](v)
-            } else if (isString(subTemps[key])) {
-                return subTemps[key]
+        if (v) {
+            if (subTemps[key]) {
+                if (isFunction(subTemps[key])) {
+                    return subTemps[key](isObject(v) ? v : {[key]: v})
+                } else if (isString(subTemps[key])) {
+                    return subTemps[key]
+                } else {
+                    throw('unknown template type')
+                }
+            }
+            if (isString(v)) {
+                return v
+            } else if (isArray(v) || isObject(v)) {
+                throw 'arrays and objects require a template'
             } else {
-                throw('unknown template type')
+                return ''
             }
         }
-        if (isString(v)) {
-            return v
-        } else if (isArray(v) || isObject(v)) {
-            throw 'arrays and objects require a template'
-        } else {
-            return ''
-        }
     })
-    return flattenDeep(zip(strings, result)).join('').trimStart().trimEnd()
+    return flattenDeep(zip(strings, result)).join('').trimStart().trimEnd().replace(/ +/g, ' ')
 }
 
