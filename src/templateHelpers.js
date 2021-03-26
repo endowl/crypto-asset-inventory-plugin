@@ -23,7 +23,4 @@ export const listOfItems = defaultValue => v => {
 }
 
 export const each = template => v => v.map(w => template(w)).join('\n\n')
-
-export const prefixIfDefined = prefix => v => v && `${prefix}${v}`
-
 export const byValue = values => v => values[v]

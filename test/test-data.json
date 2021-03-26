@@ -7,6 +7,7 @@
       {
         "name": "Empty Wallet",
         "type": "Desktop application",
+        "password": "abc123",
         "device_id": "D1",
         "asset_types": []
       },
@@ -35,7 +36,8 @@
           "Dogecoin"
         ],
         "type": "iPhone Application",
-        "device_id": "D2"
+        "device_id": "D2",
+        "pin":"222222"
       }
     ],
     "trusted_helpers": [

@@ -30,6 +30,11 @@ export default (strings, ...keys) => templates => values => {
             }
         }
     })
-    return flattenDeep(zip(strings, result)).join('').trimStart().trimEnd().replace(/ +/g, ' ')
+    return flattenDeep(zip(strings, result))
+        .join('')
+        .trimStart()
+        .trimEnd()
+        .replace(/ +/g, ' ')
+        .replace(/( +)?(\.)+/g, '.')
 }
 
