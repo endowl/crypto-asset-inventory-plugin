@@ -1,6 +1,6 @@
-import Templatize from '../src/Templatize.js'
-import {getById} from "../src/root.js"
-import {listOfItems} from "../src/templateHelpers.js"
+import Templatize from 'backtickify'
+import {listOfItems} from 'backtickify/helpers'
+import {getById} from 'backtickify/dataStore'
 import LoginCredential from './LoginCredential.template.js'
 
 const Device = Templatize`that runs on my ${'type'} ${'name'} ${ 'host_name' }. ${'login'} ${'pin'}`({

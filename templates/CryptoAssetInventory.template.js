@@ -1,11 +1,11 @@
-import Templatize from '../src/Templatize.js'
+import Templatize from 'backtickify'
+import {each} from 'backtickify/helpers'
 import Wallet from './Wallet.template.js'
 import Header from './DocumentHeader.template.js'
 import TrustedHelpers from './TrustedHelpers.template.js'
-import {each} from '../src/templateHelpers.js'
 
 const AdditionalInformation = Templatize`
-##Additional Information
+## Additional Information
 ${'cryptoassets.other_instructions'}
 `()
 

@@ -1,5 +1,5 @@
-import Templatize from "../src/Templatize.js"
-import {byValue} from "../src/templateHelpers.js"
+import Templatize from "backtickify"
+import {byValue} from "backtickify/helpers"
 
 export default Templatize`
 
