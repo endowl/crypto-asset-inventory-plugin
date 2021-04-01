@@ -1,9 +1,9 @@
 {
   "name": "crypto-asset-inventory-plugin",
   "type": "module",
-  "version": "v1.0.0-rc0",
+  "version": "v0.1.0-rc0",
   "dependencies": {
-    "backtickify": "endowl/backtickify#v0.2.0-rc0"
+    "backtickify": "endowl/backtickify#v0.1.0-rc0"
   },
   "main": "main.js",
   "exports": {
