@@ -1,5 +1,5 @@
 import T from 'backtickify'
-import {each, bind, listOfItems} from 'backtickify/helpers'
+import {each, bind, inlineList} from 'backtickify/helpers'
 import {getById} from 'backtickify/dataStore'
 
 const STATUS_TEXT = {
@@ -7,7 +7,7 @@ const STATUS_TEXT = {
     'revoked': '# This document has been REVOKED'
 }
 const DOCUMENT_STATUS = bind('/meta/status', v => STATUS_TEXT[v])
-const CRYPTOASSET_INLINE_LIST = bind('asset_types', listOfItems('various cryptoassets'))
+const CRYPTOASSET_INLINE_LIST = bind('asset_types', inlineList('various cryptoassets'))
 const WALLET_PASSWORD_OR_PIN = T`${bind('password>', T`The password to open the wallet is \`${'password'}\`.`)} ${bind('pin>', T`The PIN to open the wallet is \`${'pin'}\`.`)}`
 
 const DEVICE_DESCRIPTION = T`that runs on my ${'type'} ${'name'} ${bind('host_name>', T`named \`${'host_name'}\``)}`
@@ -48,7 +48,7 @@ ${v => DEVICE_PASSWORD_OR_PIN(getById('devices', v['device_id']))}
 ${bind('trusted_helpers', T`
 ## Trusted Helpers
 For help accessing my crypto assets, it is important to use helpers who are knowledgable and highly trustworthy. Here
- is a list of people that I believe are knowledable and will act with honesty and integrity.
+ is a list of people that I believe are knowledgeable and will act with honesty and integrity.
 
 *These assets cannot be recovered if stolen, so choose a helper carefully.*
 
