@@ -1,6 +1,11 @@
 {
+  "name": "crypto-asset-inventory-plugin",
   "type": "module",
   "dependencies": {
     "backtickify": "endowl/backtickify#v0.1.0"
+  },
+  "main": "main.js",
+  "exports": {
+    ".": "./templates/CryptoAssetInventory.template.js"
   }
 }

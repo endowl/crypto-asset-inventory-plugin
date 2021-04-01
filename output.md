@@ -1,86 +1,71 @@
-# Crypto Asset Inventory for George of Jungle<br>
+# Crypto Asset Inventory for George of Jungle
 
+# This document is a WORK IN PROGRESS
 
+Today's Date: 03/15/2021
 
-Today's Date: 2021-02-21<br>
+## Wallets
+I use the following wallets to access and store my cryptoassets:
 
-I use the following wallets to access and store my cryptoassets:<br>
+#### Empty Wallet
 
+I use Empty Wallet to access and store various cryptoassets.
+The password to open the wallet is `abc123`.
+It is a Desktop application that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
+You can log into this device with the following credentials:
+* Username: ken
+* Password: password1!
 
+#### One coin wallet
 
-_Metamask_
+I use One coin wallet to access and store Singletary.
 
-I use Metamask to access and store Ether,Ethereum tokens. It is a browser plugin on Chrome.
+It is a Desktop application that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
+You can log into this device with the following credentials:
+* Username: ken
+* Password: password1!
 
-I run it on my laptop which is a Macbook Pro (2019). The hostname of this device is Trash-Panda-Base.
+#### Metamask
 
-To access my laptop, you can log in with the username ken and password password1!.
+I use Metamask to access and store Ether and Ethereum tokens.
 
+It is a browser plugin on Chrome that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
+You can log into this device with the following credentials:
+* Username: ken
+* Password: password1!
 
+#### Trust Wallet
 
+I use Trust Wallet to access and store Ether, Bitcoin, and Dogecoin.
+The PIN to open the wallet is `222222`.
+It is a iPhone Application that runs on my Apple iPhone 12 iphone.
 
+You can unlock the device with the PIN `987654`.
 
-_Trust Wallet_
+## George of Jungle's Trusted Helpers
+For help accessing my crypto assets, it is important to use helpers who are knowledgable and highly trustworthy. Here
+is a list of people that I believe are knowledable and will act with honesty and integrity.
 
-I use Trust Wallet to access and store Ether,Bitcoin. It is a iPhone App.
+*These assets cannot be recovered if stolen, so choose a helper carefully.*
 
-I run it on my iphone which is a Apple iPhone 12. The hostname of this device is Mobile-Trash-Panda.
+#### Tookie of Jungle
+* Address: Tree over there, In jungle
 
+* Email: tookie@bongonet.org
 
-You can unlock my iphone, with the PIN 987654.
+#### Ursula Stanhope
+* Address: George's treehouse, In jungle
+* Phone: +1 888 555-1212
 
+#### Ape of Jungle
+* Address: By river, In jungle
+* Phone: +999 7219
+* Email: ape@bongonet.org
 
-
-
-# Trusted Helpers
-For help accessing my crypto assets, here is a list of people that I believe are trustworthy and will act with honesty and integrity.
-
-**Please note:**<br>
-*These assets cannot be recovered if stolen, so choose a helper carefully.*<br>
-
-
-Tookie of Jungle<br>
-
-Address: Tree over there, In jungle<br>
-
-
-Phone: +999 3482<br>
-
-
-Email: tookie@bongonet.org<br>
-
-
-
-
-Ursula Stanhope<br>
-
-Address: George's treehouse, In jungle<br>
-
-
-Phone: +1 888 555-1212<br>
-
-
-Email: ustanhope1985@yahoo.com<br>
-
-
-
-
-Ape of Jungle<br>
-
-Address: By river, In jungle<br>
-
-
-Phone: +999 7219<br>
-
-
-Email: ape@bongonet.org<br>
-
-
-
-
-
-# Other things you should know:
-
+## Additional Information
 - Hodl
 - BTFD
 - Lambo soon
+
+--- END OF DOCUMENT ---
+
