@@ -1,6 +1,6 @@
 import CryptoAssetInventoryForm from '../templates/CryptoAssetInventory.template.js'
 import data from './test-data.json'
-import {set} from "backtickify/dataStore"
+import {set} from "backtickify/src/dataStore"
 
 set(data)
 
