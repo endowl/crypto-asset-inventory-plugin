@@ -1,6 +1,6 @@
 # Crypto Asset Inventory for George of Jungle
 
-# This document is a WORK IN PROGRESS
+## Document status: WORK IN PROGRESS
 
 Today's Date: 03/15/2021
 
@@ -9,8 +9,7 @@ I use the following wallets to access and store my cryptoassets:
 
 #### Empty Wallet
 
-I use Empty Wallet to access and store various cryptoassets.
-The password to open the wallet is `abc123`.
+I use Empty Wallet to access and store various cryptoassets. The password to open the wallet is `abc123`.
 It is a Desktop application that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
 You can log into this device with the following credentials:
 * Username: ken
@@ -18,8 +17,7 @@ You can log into this device with the following credentials:
 
 #### One coin wallet
 
-I use One coin wallet to access and store Singletary.
-
+I use One coin wallet to access and store Singletary. 
 It is a Desktop application that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
 You can log into this device with the following credentials:
 * Username: ken
@@ -27,8 +25,7 @@ You can log into this device with the following credentials:
 
 #### Metamask
 
-I use Metamask to access and store Ether and Ethereum tokens.
-
+I use Metamask to access and store Ether and Ethereum tokens. 
 It is a browser plugin on Chrome that runs on my Macbook Pro (2019) laptop named `Trash-Panda-Base`.
 You can log into this device with the following credentials:
 * Username: ken
@@ -36,15 +33,13 @@ You can log into this device with the following credentials:
 
 #### Trust Wallet
 
-I use Trust Wallet to access and store Ether, Bitcoin, and Dogecoin.
-The PIN to open the wallet is `222222`.
+I use Trust Wallet to access and store Ether, Bitcoin, and Dogecoin. The PIN to open the wallet is `222222`.
 It is a iPhone Application that runs on my Apple iPhone 12 iphone.
-
 You can unlock the device with the PIN `987654`.
 
-## George of Jungle's Trusted Helpers
+## Trusted Helpers
 For help accessing my crypto assets, it is important to use helpers who are knowledgable and highly trustworthy. Here
-is a list of people that I believe are knowledable and will act with honesty and integrity.
+ is a list of people that I believe are knowledgeable and will act with honesty and integrity.
 
 *These assets cannot be recovered if stolen, so choose a helper carefully.*
 

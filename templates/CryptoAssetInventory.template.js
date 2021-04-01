@@ -3,8 +3,8 @@ import {each, bind, inlineList} from 'backtickify/helpers'
 import {getById} from 'backtickify/dataStore'
 
 const STATUS_TEXT = {
-    'in-progress': '# This document is a WORK IN PROGRESS',
-    'revoked': '# This document has been REVOKED'
+    'in-progress': '## Document status: WORK IN PROGRESS',
+    'revoked': '## Document status: REVOKED'
 }
 const DOCUMENT_STATUS = bind('/meta/status', v => STATUS_TEXT[v])
 const CRYPTOASSET_INLINE_LIST = bind('asset_types', inlineList('various cryptoassets'))
