@@ -9,11 +9,11 @@
         "type": "Desktop application",
         "password": "abc123",
         "device_id": "D1",
-        "asset_types": []
+        "typesHeld": []
       },
       {
         "name": "One coin wallet",
-        "asset_types": [
+        "typesHeld": [
           "Singletary"
         ],
         "type": "Desktop application",
@@ -21,7 +21,7 @@
       },
       {
         "name": "Metamask",
-        "asset_types": [
+        "typesHeld": [
           "Ether",
           "Ethereum tokens"
         ],
@@ -30,7 +30,7 @@
       },
       {
         "name": "Trust Wallet",
-        "asset_types": [
+        "typesHeld": [
           "Ether",
           "Bitcoin",
           "Dogecoin"
@@ -40,12 +40,12 @@
         "pin":"222222"
       }
     ],
-    "trusted_helpers": [
+    "trustedHelpers": [
       "C1",
       "C2",
       "C3"
     ],
-    "other_instructions": "- Hodl\n- BTFD\n- Lambo soon"
+    "otherInformation": "- Hodl\n- BTFD\n- Lambo soon"
   },
   "devices": [
     {
@@ -78,30 +78,30 @@
   "contacts": [
     {
       "id": "C1",
-      "first_name": "Tookie",
-      "full_name": "Tookie of Jungle",
+      "firstName": "Tookie",
+      "fullName": "Tookie of Jungle",
       "email": "tookie@bongonet.org",
       "address": "Tree over there, In jungle"
     },
     {
       "id": "C2",
-      "first_name": "Ursula",
-      "full_name": "Ursula Stanhope",
+      "firstName": "Ursula",
+      "fullName": "Ursula Stanhope",
       "phone": "+1 888 555-1212",
       "address": "George's treehouse, In jungle"
     },
     {
       "id": "C3",
-      "first_name": "Ape",
-      "full_name": "Ape of Jungle",
+      "firstName": "Ape",
+      "fullName": "Ape of Jungle",
       "email": "ape@bongonet.org",
       "phone": "+999 7219",
       "address": "By river, In jungle"
     },
     {
       "id": "C4",
-      "first_name": "Shep",
-      "full_name": "Shep of Jungle",
+      "firstName": "Shep",
+      "fullName": "Shep of Jungle",
       "email": "shep@bongonet.org",
       "phone": "+999 7220",
       "address": "George house, In jungle"
@@ -110,6 +110,6 @@
   ],
   "meta": {
     "date_signed": "03/15/2021",
-    "status": "active"
+    "status": "in-progress"
   }
 }

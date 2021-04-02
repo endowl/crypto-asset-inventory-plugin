@@ -1,6 +1,26 @@
 {
+  "name": "crypto-asset-inventory-plugin",
+  "version": "v0.1.0-rc8",
+  "description": "A template for a letter about recovering crypto assets",
+  "scripts": {
+    "test": "node --experimental-json-modules test/js-template.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endowl/crypto-asset-inventory-plugin.git"
+  },
+  "author": "Ken Hodler (@bgok)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endowl/crypto-asset-inventory-plugin/issues"
+  },
+  "homepage": "https://github.com/endowl/crypto-asset-inventory-plugin#README.md",
+  "main": "main.js",
+  "exports": {
+    ".": "./templates/CryptoAssetInventory.template.js"
+  },
   "type": "module",
   "dependencies": {
-    "backtickify": "endowl/backtickify#v0.1.0"
+    "backtickify": "endowl/backtickify#v0.1.0-rc8"
   }
 }
