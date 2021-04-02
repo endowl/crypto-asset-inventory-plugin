@@ -34,7 +34,7 @@ ${DOCUMENT_STATUS}
 Today's Date: ${'/meta/date_signed'}
 `)}
 
-## Wallets
+### Wallets
 I use the following wallets to access and store my cryptoassets:
 
 ${bind('wallets', each(T`
@@ -46,7 +46,7 @@ ${v => DEVICE_PASSWORD_OR_PIN(getById('devices', v['device_id']))}
 `))}
 
 ${bind('trustedHelpers', T`
-## Trusted Helpers
+### Trusted Helpers
 For help accessing my crypto assets, it is important to use helpers who are knowledgable and highly trustworthy. Here
  is a list of people that I believe are knowledgeable and will act with honesty and integrity.
 
@@ -56,7 +56,7 @@ ${each(v => TRUSTED_HELPER_TEMPLATE(getById('contacts', v)))}
 `)}
 
 ${bind('otherInformation>', T`
-## Additional Information
+### Additional Information
 ${'otherInformation'}
 `)}
 
