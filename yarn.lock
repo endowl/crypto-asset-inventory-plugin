@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-backtickify@endowl/backtickify#v0.1.0:
-  version "0.1.0"
-  resolved "https://codeload.github.com/endowl/backtickify/tar.gz/8956abb2760ddfb7113e44a64a32bcd20b085cc1"
+backtickify@endowl/backtickify#v0.1.0-rc10:
+  version "0.1.0-rc10"
+  resolved "https://codeload.github.com/endowl/backtickify/tar.gz/98b657933ba489c85b4c6c54df6e124ecf61174f"
   dependencies:
     lodash "^4.17.21"
 

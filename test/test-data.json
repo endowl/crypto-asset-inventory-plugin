@@ -3,6 +3,7 @@
     "full_name": "George of Jungle"
   },
   "cryptoassets": {
+    "heir_id": "C4",
     "wallets": [
       {
         "name": "Empty Wallet",
@@ -16,8 +17,7 @@
         "typesHeld": [
           "Singletary"
         ],
-        "type": "Desktop application",
-        "device_id": "D1"
+        "type": "Desktop application"
       },
       {
         "name": "Metamask",
@@ -45,7 +45,7 @@
       "C2",
       "C3"
     ],
-    "otherInformation": "- Hodl\n- BTFD\n- Lambo soon"
+    "otherInformation": "Use my crypto for buy many sticks. Enjoy life.\n- Hodl\n- BTFD\n- Lambo soon"
   },
   "devices": [
     {
@@ -109,7 +109,7 @@
 
   ],
   "meta": {
-    "date_signed": "03/15/2021",
+    "date_signed": "April 2, 2021",
     "status": "in-progress"
   }
 }
