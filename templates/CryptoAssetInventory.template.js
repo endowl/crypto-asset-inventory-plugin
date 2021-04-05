@@ -10,7 +10,11 @@ ${bind('/meta/status', {
 
 ${'/meta/date_signed'}
 
+${bind('heir_id>', T`
 Dear ${bindByIdField('heir_id', 'contacts', T`${'firstName'}`)},
+`, T`
+To whom it may concern:
+`)}
 
 The purpose of this letter is to document the cryptoassets I own, how they are stored, and how they can be recovered in
 case of my incapacitation or death.
@@ -62,9 +66,13 @@ Here's some additional information that you may find useful:
 ${'otherInformation'}
 `)}
 
+${bind('/grantor/full_name', T`
 With love,
 
 ${'/grantor/full_name'}
+`, T`
+ - Anonymous
 `)}`
+)}`
 
 export default CryptoAssetInventory
