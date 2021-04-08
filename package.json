@@ -1,6 +1,6 @@
 {
   "name": "crypto-asset-inventory-plugin",
-  "version": "v0.1.0-rc10",
+  "version": "v0.1.0-rc11",
   "description": "A template for a letter about recovering crypto assets",
   "scripts": {
     "test": "node --experimental-json-modules test/js-template.js"
@@ -21,6 +21,6 @@
   },
   "type": "module",
   "dependencies": {
-    "backtickify": "endowl/backtickify#v0.1.0-rc10"
+    "backtickify": "endowl/backtickify#v0.1.0-rc11"
   }
 }
