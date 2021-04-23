@@ -2,7 +2,7 @@ import T from 'backtickify/src/Templatize'
 import {bind, bindById, bindByIdField, bindToInlineList, bindEach} from 'backtickify/src/helpers'
 
 const CryptoAssetInventory = T`${bind('cryptoassets', T`
-# Crypto Asset Inventory for ${'/grantor/full_name'}
+# Crypto Asset Inventory${bind('/grantor/full_name>', T`for ${'/grantor/full_name'}`)}
 
 ${bind('/meta/status', {
     'in-progress': '## Document status: WORK IN PROGRESS',
@@ -27,8 +27,7 @@ ${bindEach('wallets', T`
 #### ${'name'}
 
 I use **${'name'}** to access and store ${bindToInlineList('typesHeld', 'various cryptoassets')}.
-${bind('password>', T`The password to open the wallet is **${'password'}**`)}.
-${bind('pin>', T`The PIN to open the wallet is **${'pin'}**`)}.
+${bind('pin_or_password>', T`The password to open the wallet is **${'pin_or_password'}**`)}.
 It is a ${'type'}
 ${bindByIdField('device_id', 'devices', 
     T`that runs on my ${'type'} ${'name'} ${bind('host_name>', T`named \`${'host_name'}\``)}.
