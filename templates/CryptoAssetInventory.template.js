@@ -50,7 +50,7 @@ ${bindEach('trustedHelpers', bindById('contacts', T`
 #### ${'fullName'}
 
 ${bind('address>', T`* Address: **${'address'}**
-`)}${bind('phone>', T`* Phone: **${'phone'}**
+`)}${bind('phoneNumber>', T`* Phone: **${'phoneNumber'}**
 `)}${bind('email>', T`* Email: **${'email'}**`)}`))}
 
 These assets cannot be recovered if stolen, so choose a helper carefully. Get to know each of the trusted helpers and
