@@ -34,8 +34,9 @@ ${bindByIdField('device_id', 'devices',
 ${bind('location>', T`I keep it in the following location: *${'location'}*`)}.    
 ${bind('login', T`You can log into this device with the following credentials:
 
-* Username: **${'username'}**
-* Password: **${'password'}**`)}
+${bind('username>', T`* Username: **${'username'}**
+`)}${bind('password>', T`* Password: **${'password'}**
+`)}`)}
 ${bind('pin>', T`You can unlock the device with the PIN **${'pin'}**.`)}.
 .`)}
 .`)}
